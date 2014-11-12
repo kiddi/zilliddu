@@ -1,0 +1,26 @@
+.container {
+	display: block;
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+
+.button {
+	height: 300px;
+	width: 50%;
+	border: black 1px solid;
+	position: absolute;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+
+}
+
+.fill {
+	background-color: red;
+}
+
+.iddu {
+	/*display: none;*/
+	position: absolute;
+}
