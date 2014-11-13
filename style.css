@@ -2,25 +2,35 @@
 	display: block;
 	float: left;
 	width: 100%;
-	height: 100%;
+	height: 1000px;
 }
 
 .button {
 	height: 300px;
 	width: 50%;
 	border: black 1px solid;
-	position: absolute;
+	position: relative;
 	margin-right: auto;
 	margin-left: auto;
 	display: block;
-
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 10em;
 }
 
 .fill {
 	background-color: red;
 }
 
-.iddu {
-	/*display: none;*/
-	position: absolute;
+.johnson {
+	height: 300px;
+	width: 50%;
+	border: black 1px solid;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 10em;	
 }

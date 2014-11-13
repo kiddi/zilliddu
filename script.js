@@ -1,8 +1,15 @@
 $(document).ready(function() {
+
 	$('.button').mousedown(function() {
-		$('this').addClass('fill');
+		$('.button').addClass('fill');
 	});
+
+
 	$('.button').mouseup(function() {
-		$('this').removeClass('fill');
+		$(this).removeClass('fill')
+				.removeClass('button')
+				.empty()
+				.append("IDDU")
+				.addClass('johnson');
 	});
 });
