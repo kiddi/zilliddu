@@ -1,15 +1,7 @@
 $(document).ready(function() {
 
-	$('.button').mousedown(function() {
-		$('.button').addClass('fill');
-	});
-
-
-	$('.button').mouseup(function() {
-		$(this).removeClass('fill')
-				.removeClass('button')
-				.empty()
-				.append("IDDU")
-				.addClass('johnson');
+	$('#pbtn').mouseup(function() {
+		$(this).empty()
+				.append('<div id="btnlabel">iddu</div>')
 	});
 });
